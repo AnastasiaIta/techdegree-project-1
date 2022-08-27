@@ -91,13 +91,9 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 
-.tag-name2 {
+.transparent-name-color {
   background-color: hsla(30, 55%, 78%, 0.452);
   color: rgb(39, 12, 12);
-  padding: 10px;
-  border-radius: 20px;
-  display: table;
-  margin: 10px auto;
 }
 
 .tag-location {
@@ -109,13 +105,9 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 
-.tag-location2 {
+.transparent-loc-color {
   background-color: rgba(39, 12, 12, 0.747);
   color: rgba(230, 199, 168, 0.856);
-  padding: 10px;
-  border-radius: 25px;
-  display: table;
-  margin: 10px auto;
 } 
 
 .location {
@@ -154,6 +146,10 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #c76565c0;
+}
+
+.newclass {
+  margin-top: 50px;
 }
 
 footer {
